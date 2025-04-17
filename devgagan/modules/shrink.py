@@ -5,8 +5,8 @@
 #              and uploading them back to Telegram.
 # Author: Gagan
 # GitHub: https://github.com/devgaganin/
-# Telegram: https://t.me/team_spy_pro
-# YouTube: https://youtube.com/@dev_gagan
+# Telegram: 
+# YouTube: 
 # Created: 2025-01-11
 # Last Modified: 2025-01-11
 # Version: 2.0.5
@@ -73,9 +73,9 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/team_spy_pro")
-        premium = InlineKeyboardButton("Get Premium", url="https://t.me/kingofpatal")   
+        image_url = "https://ibb.co/DHZbPSLH"
+        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/+UJaHQO_h_B85Yzk0")
+        premium = InlineKeyboardButton("Get Premium", url="https://t.me/I_am_VillanN")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
             [premium]    
